@@ -299,9 +299,12 @@ html[lang="ta"] .eyebrow, html[lang="ta"] .kicker, html[lang="ta"] .brands-label
 @media (min-width: 900px) { .branches { grid-template-columns: repeat(5, 1fr); } }
 .branch {
   border: 1px solid var(--line); border-radius: var(--radius); padding: 1.2rem 1.1rem;
-  background: #fff; display: grid; gap: .25rem;
+  background: #fff; display: grid; gap: .25rem; align-content: start;
 }
 .branch strong { font-size: 1.1rem; color: var(--navy); }
+.b-addr { font-size: .88rem; color: var(--muted); line-height: 1.45; }
+.b-map { font-size: .88rem; font-weight: 700; color: var(--red); text-decoration: none; margin-top: .2rem; }
+.b-map:hover { text-decoration: underline; }
 .b-label { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
 .main-branch { grid-column: 1 / -1; background: var(--red); border-color: var(--red); }
 .main-branch strong { color: #fff; font-size: 1.4rem; }

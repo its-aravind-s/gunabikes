@@ -80,6 +80,8 @@
     "br.branch": "கிளை",
     "br.madurantakam": "மதுராந்தகம்",
     "br.kalpakkam": "கல்பாக்கம்",
+    "br.kalpakkam.addr": "6, மாநில நெடுஞ்சாலை 49, புதுப்பட்டினம், தமிழ்நாடு 603102",
+    "br.map": "வரைபடத்தில் பார்க்க →",
     "br.kadapakkam": "கடப்பாக்கம்",
     "br.pavunjur": "பவுஞ்சூர்",
     "br.keezhkodungalur": "கீழ்க்கொடுங்கலூர்",
